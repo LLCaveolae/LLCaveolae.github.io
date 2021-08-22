@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>林憨憨的自留地</title>
+  <title>Lin&#39;blog</title>
   
-  <subtitle>放空脑袋</subtitle>
-  <link href="http://www.ll-memory.club/atom.xml" rel="self"/>
+  <subtitle>welcome to my blog!</subtitle>
+  <link href="http://ll-memory.club/atom.xml" rel="self"/>
   
-  <link href="http://www.ll-memory.club/"/>
+  <link href="http://ll-memory.club/"/>
   <updated>2020-12-31T14:44:56.444Z</updated>
-  <id>http://www.ll-memory.club/</id>
+  <id>http://ll-memory.club/</id>
   
   <author>
-    <name>林憨憨</name>
+    <name>LL</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://www.ll-memory.club/2020/12/31/hello-world/"/>
-    <id>http://www.ll-memory.club/2020/12/31/hello-world/</id>
+    <link href="http://ll-memory.club/2020/12/31/hello-world/"/>
+    <id>http://ll-memory.club/2020/12/31/hello-world/</id>
     <published>2020-12-31T14:44:56.444Z</published>
     <updated>2020-12-31T14:44:56.444Z</updated>
     
