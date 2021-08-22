@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>林憨憨的自留地</title>
+  <title>Lin&#39; blog</title>
   
   <subtitle>welcome to my blog!</subtitle>
   <link href="http://ll-memory.club/atom.xml" rel="self"/>
@@ -18,9 +18,9 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://ll-memory.club/2020/12/31/hello-world/"/>
-    <id>http://ll-memory.club/2020/12/31/hello-world/</id>
-    <published>2020-12-31T14:44:56.444Z</published>
+    <link href="http://ll-memory.club/2021/08/22/hello-world/"/>
+    <id>http://ll-memory.club/2021/08/22/hello-world/</id>
+    <published>2021-08-22T13:24:58.295Z</published>
     <updated>2020-12-31T14:44:56.444Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
@@ -32,6 +32,230 @@
       
     
     
+    
+    
+  </entry>
+  
+  <entry>
+    <title>operational amplifier</title>
+    <link href="http://ll-memory.club/2021/08/10/operational%20amplifier/"/>
+    <id>http://ll-memory.club/2021/08/10/operational%20amplifier/</id>
+    <published>2021-08-09T21:47:30.000Z</published>
+    <updated>2021-08-18T09:00:01.023Z</updated>
+    
+    <content type="html"><![CDATA[<p>运算放大器（简称“运放”）是具有很高放大倍数的电路单元。在实际电路中，通常结合反馈网络共同组成某种功能模块。它是一种带有特殊耦合电路及反馈的放大器。其输出信号可以是输入信号加、减或微分、积分等数学运算的结果。由于早期应用于模拟计算机中用以实现数学运算，因而得名“运算放大器”。</p><a id="more"></a><p>在bilibili看到一个运放原理讲解很好的视屏：</p><div align=center class="aspect-ratio">    <iframe src="https://player.bilibili.com/player.html?aid=74750698&&page=1&as_wide=1&high_quality=1&danmaku=0"     scrolling="no"     border="0"     frameborder="no"     framespacing="0"     high_quality=1    danmaku=1     allowfullscreen="true">     </iframe></div><ul><li>反相比例电路</li></ul><p><img src="https://a-maze.oss-cn-shenzhen.aliyuncs.com/%E8%BF%90%E7%AE%97%E6%94%BE%E5%A4%A7%E5%99%A8/%E5%8F%8D%E7%9B%B8%E6%94%BE%E5%A4%A7%E5%99%A8.png"></p>\[{V_0} =  - \frac{{{R_f}}}{{{R_1}}}{V_i}\]<p>特点：</p><ol><li>反相端为虚地，所以共模输入可视为0，对运放共模抑制比要求低</li><li>输出电阻小，带负载能力强</li><li>要求放大倍数较大时，反馈电阻阻值高，稳定性差<img src="https://a-maze.oss-cn-shenzhen.aliyuncs.com/%E8%BF%90%E7%AE%97%E6%94%BE%E5%A4%A7%E5%99%A8/%E5%8F%8D%E7%9B%B8%E8%BF%90%E7%AE%97%E6%94%BE%E5%A4%A7%E6%B3%A2%E5%BD%A2.png"></li></ol><ul><li>同相比例电路</li></ul><p><img src="https://a-maze.oss-cn-shenzhen.aliyuncs.com/%E8%BF%90%E7%AE%97%E6%94%BE%E5%A4%A7%E5%99%A8/%E5%90%8C%E7%9B%B8%E6%AF%94%E4%BE%8B%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF.png"></p>\[{V_0} = \left( {1 + \frac{{{R_f}}}{{{R_1}}}} \right){V_i}\]<p>特点： 输入电阻高，输出电阻小，带负载能力强 V-=V+=Vi，所以共模输入等于输入信号，对运放的共模 抑制比要求高<br><img src="https://a-maze.oss-cn-shenzhen.aliyuncs.com/%E8%BF%90%E7%AE%97%E6%94%BE%E5%A4%A7%E5%99%A8/%E5%90%8C%E7%9B%B8%E6%AF%94%E4%BE%8B%E8%BF%90%E6%94%BE%E6%B3%A2%E5%BD%A2.png"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;运算放大器（简称“运放”）是具有很高放大倍数的电路单元。在实际电路中，通常结合反馈网络共同组成某种功能模块。它是一种带有特殊耦合电路及反馈的放大器。其输出信号可以是输入信号加、减或微分、积分等数学运算的结果。由于早期应用于模拟计算机中用以实现数学运算，因而得名“运算放大器”。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="http://ll-memory.club/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Electric circuit" scheme="http://ll-memory.club/tags/Electric-circuit/"/>
+    
+    <category term="operational amplifier" scheme="http://ll-memory.club/tags/operational-amplifier/"/>
+    
+    <category term="Analog Electronics Technology" scheme="http://ll-memory.club/tags/Analog-Electronics-Technology/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Memristor</title>
+    <link href="http://ll-memory.club/2021/06/27/Memristor/"/>
+    <id>http://ll-memory.club/2021/06/27/Memristor/</id>
+    <published>2021-06-26T23:13:54.000Z</published>
+    <updated>2021-08-18T12:48:30.729Z</updated>
+    
+    <content type="html"><![CDATA[<p>没想到耽搁了这么多时间，到现在才开始。行百里者半九十，从今天开始每天要坚持阅读论文1小时。</p><a id="more"></a><h1 id="Memristor"><a href="#Memristor" class="headerlink" title="Memristor"></a>Memristor</h1><ul><li><p><strong>忆阻器概念</strong></p><p>1.无源非线性电路元件</p><p>2.继电阻，电容和电感之后的第四种基本电路元件</p></li><li><p><strong>忆阻器特征</strong></p><p>1.阻值会随通过的电流大小改变而改变</p><p>2.电流中断时其阻值会保持掉电瞬间状态，直到下一次有电流流过才会改变阻值</p><p>3.可以表示磁通量和电荷量之间的关系</p><p>4.具有非易o失记忆性及纳米尺度的结构特点</p></li><li><p><strong>如何判断是否为忆阻器</strong></p></li><li><p><strong>忆阻器模型分类（如何分类以及缺陷）</strong></p><p>1.Tio2忆阻器模型（HP实验室）</p><p><img src="https://a-maze.oss-cn-shenzhen.aliyuncs.com/%E5%BF%86%E9%98%BB%E5%88%9D%E7%BA%A7%E6%A6%82%E5%BF%B5/Tio2%E5%BF%86%E9%98%BB%E5%99%A8%E6%A8%A1%E5%9E%8B.png"></p><blockquote><p>HP实验室构建的忆阻器模型架构分为四个部分，上下两边是很薄的铂电极；中间是Tio2材料，上边没有掺杂，下边是掺杂氧原子空位的Tio2层。当电荷通过铂电极流过两层Tio2时，Tio2内部有氧空缺位到无氧空缺位的移动会引起Tio2忆阻器的总阻值发生变化。</p></blockquote><blockquote><p>当电流从Tio2-X层流向Tio2层时，Tio2忆阻器的阻值会逐渐变小，最终停留在最小阻值状态；反之阻值逐渐变大，最终停留在最大阻值状态。</p></blockquote><blockquote><p>当电流断开时，其内部氧空缺位不会回到之前的状态，既可保持掉电瞬间状态，从而Tio2忆阻器具有掉电记忆特性。</p></blockquote><p>2.荷控型忆阻器模型</p></li></ul><p>  3.磁控型忆阻器模型</p><ul><li><strong>新忆阻器模型的提出</strong></li></ul><h1 id="chaos"><a href="#chaos" class="headerlink" title="chaos"></a>chaos</h1><ul><li><p><strong>混沌的概念</strong></p><p>1.混沌是非线性动力学系统中所特有的一种运动形式</p><p>2.混沌现象的发现被称为第三次物理革命，改变了确定性和随机性之间分界线的说法。</p></li><li><p><strong>混沌的特征</strong></p><p>1.混沌系统对初始条件具有高度的敏感性，即当初始条件发生微小的变化时，经过一<br>段时间的演化，就会引起系统发生很大的变化。</p><p>2.混沌系统是确定的，但系统的输出表现出高度随机性。</p><p>3.相维空间的轨迹可能存在奇异吸引子，具有分维分形特性。</p><p>4.混沌轨迹具有分岔特性，一般混沌系统在系统参数改变的情况下可出现单周期、倍<br>周期、四周期直至出现逆周期特性。</p></li><li><p><strong>如何判断系统是否存在混沌现象</strong></p><p>1.混沌的三要素</p><blockquote><p>临界水平：混沌事件的发生点</p><p>分形：有序和无序的统一</p><p>混沌对初始值的高敏感度性:一个微小的扰动可导致最终系统输出的巨大差异</p></blockquote></li><li><p><strong>怎么通过理论分析和仿真模拟展示混沌行为</strong></p></li></ul><h1 id="忆阻神经网络"><a href="#忆阻神经网络" class="headerlink" title="忆阻神经网络"></a>忆阻神经网络</h1><ul><li><strong>忆阻神经网络的概念</strong></li><li><strong>忆阻神经网络研究的理论意义</strong></li><li><strong>忆阻神经网络研究的应用意义</strong></li></ul><h1 id="改进"><a href="#改进" class="headerlink" title="改进"></a>改进</h1><ul><li><strong>这些研究工作有哪些可以改进的具体地方，如何在次基础上做一些改进</strong></li></ul><ol><li>什么是忆阻器？忆阻器有哪些特征？如何判断一个器件是否为忆阻器？已有的忆阻器模型有哪些，如何分类，有哪些缺陷？怎么提出一个新的忆阻器模型？</li><li>什么是混沌？混沌有哪些特征？如何判断系统是否存在混沌现象及怎么通过理论分析和仿真模拟展示混沌行为？</li><li>什么是忆阻神经网络？忆阻神经网络的研究意义是什么(理论和应用两方面)？</li><li>思考论文中涉及到的相关技术和方法是否能够自行实现？</li><li>这些研究工作有哪些可以改进的具体地方，如何在次基础上做一些改进，这一点最为重要。做好相关笔记。</li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;没想到耽搁了这么多时间，到现在才开始。行百里者半九十，从今天开始每天要坚持阅读论文1小时。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="http://ll-memory.club/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Memristor" scheme="http://ll-memory.club/tags/Memristor/"/>
+    
+    <category term="neural networks" scheme="http://ll-memory.club/tags/neural-networks/"/>
+    
+    <category term="chaos" scheme="http://ll-memory.club/tags/chaos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JAVA 基础语法学习</title>
+    <link href="http://ll-memory.club/2021/02/06/JAVA-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://ll-memory.club/2021/02/06/JAVA-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/</id>
+    <published>2021-02-06T14:37:19.000Z</published>
+    <updated>2021-08-18T12:43:03.325Z</updated>
+    
+    <content type="html"><![CDATA[<p>基础语法</p><a id="more"></a><h1 id="1-注释"><a href="#1-注释" class="headerlink" title="1.注释"></a>1.注释</h1><ul><li>注释不会被执行，书写注释是一个非常好的习惯<ul><li>单行注释 (//文字)</li><li>多行注释（/* 文字 */）</li><li>文档注释,JavaDoc(/**  */)</li></ul></li></ul><h1 id="2-标识符"><a href="#2-标识符" class="headerlink" title="2.标识符"></a>2.标识符</h1><ul><li>java所有的组成部分都需要名字。类名，变量名字以及方法名都被称为标识符。</li><li>所有的标识符都是以大小写字母，$，下划线开始（不能以数字，#之类的开头）</li><li>不能用关键字作为变量名或方法名</li><li> <strong>标识符是大小写敏感的</strong> </li></ul><h1 id="3-数据类型"><a href="#3-数据类型" class="headerlink" title="3.数据类型"></a>3.数据类型</h1><ul><li>强类型语言，要求变量的使用要严格符合规定，所有变量都必须先定义后才能使用</li><li>java的数据类型可以分为两类<ul><li>基本类型（primitive type）</li><li>引用类型（reference type）</li></ul></li><li>基本数据类型<ul><li>整数类型<ul><li>byte——占一个字节范围</li><li>short——占2个字节范围</li><li>int——占4个字节范围</li><li>long——占领8个字节范围，要在数字后面加个L</li></ul></li><li>浮点类型<ul><li>float ——占个4字节</li><li>double——占8个字节</li></ul></li><li>字符类型<ul><li>char——占2个字节</li></ul></li></ul></li><li>布尔数据类型——占一位其值只有true和false两个</li><li>应用数据类型、<ul><li>类</li><li>接口</li><li>数组</li></ul></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;基础语法&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="http://ll-memory.club/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="java" scheme="http://ll-memory.club/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JAVA入门环境搭建</title>
+    <link href="http://ll-memory.club/2021/02/06/JAVA%E5%85%A5%E9%97%A8%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    <id>http://ll-memory.club/2021/02/06/JAVA%E5%85%A5%E9%97%A8%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
+    <published>2021-02-06T14:05:51.000Z</published>
+    <updated>2021-08-18T12:43:28.060Z</updated>
+    
+    <content type="html"><![CDATA[<p>软件安装</p><a id="more"></a><h1 id="一-卸载JDK"><a href="#一-卸载JDK" class="headerlink" title="一.卸载JDK"></a>一.卸载JDK</h1><ul><li><p>删除JAVA的安装目录（环境变量里找JAVA_HOME，Java的安装目录，直接删除整个文件夹）</p></li><li><p>删除JAVA_HOME（删除环境变量） </p></li><li><p>删除path下关于java的目录</p></li><li><p>cmd运行java　-version</p></li></ul><h1 id="二-安装JDK"><a href="#二-安装JDK" class="headerlink" title="二.安装JDK"></a>二.安装JDK</h1><ul><li><p>百度搜索JDK8找到对应的版本下载</p></li><li><p><strong>记住安装路径</strong></p></li><li><p>配置环境变量</p><p>1.我的电脑——右击——属性</p><p>2.环境变量——JAVA_HOME</p><p>3.配置path变量（1.%JAVA_HOME%\bin  </p><p>2.%JAVA_HOME%\jre\bin  ）</p></li><li><p>cmd运行java　-version检查是否安装成功</p></li></ul><h1 id="三-第一个程序"><a href="#三-第一个程序" class="headerlink" title="三.第一个程序"></a>三.第一个程序</h1><ul><li><p>编写代码</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Hello</span></span>&#123;</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">System.out.print(<span class="string">&quot;Hello,Word!&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><ul><li><p>编译javac java文件（cmd该文件路径），会生成一个class文件</p></li><li><p>运行class文件，java class文件</p><p><img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210206140020565.png" alt="image-20210206140020565"></p></li><li><p><strong>可能遇到的问题</strong></p><ul><li><p>每个单词的大小写不能出现问题，<strong>java是大小写敏感的</strong></p></li><li><p>尽量使用英文 </p></li><li><p>文件名和类名必须保持一致</p></li><li><p>符号使用了中文</p></li></ul></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;软件安装&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="http://ll-memory.club/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="java" scheme="http://ll-memory.club/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用GitHub+hexo搭建个人博客</title>
+    <link href="http://ll-memory.club/2020/03/14/%E7%94%A8GitHub-hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://ll-memory.club/2020/03/14/%E7%94%A8GitHub-hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2020-03-13T17:53:32.000Z</published>
+    <updated>2021-08-18T12:33:25.122Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前的云服务器没了，太贵了续费不起。github搭建hexo博客是不需要花钱的，以免以后忘记这个白嫖的方法<font color="blue">（白嫖不爽吗？）</font>，详细记录下来。</p><a id="more"></a><h2 id="用GitHub搭建博客的好处"><a href="#用GitHub搭建博客的好处" class="headerlink" title="用GitHub搭建博客的好处"></a>用GitHub搭建博客的好处<br></h2><ul><li>全是静态文件，访问速度快<br></li><li>免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台<br></li><li>可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的<br></li><li>数据绝对安全，基于github的版本管理，想恢复到哪个历史版本都行<br></li><li>博客内容可以轻松打包、转移、发布到其它平台<br></li></ul><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作<br></h2><ul><li>有一个github账号<br></li><li>安装了node.js、npm，git for windows并了解相关基础知识；<br></li></ul><h2 id="搭建Github博客"><a href="#搭建Github博客" class="headerlink" title="搭建Github博客"></a>搭建Github博客<br></h2><h3 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库<br></h3><ul><li>新建一个名为你的用户名.github.io的仓库，比如说，如果你的github用户名是test，那么你就新建test.github.io的仓库<font color='blue'>必须是你的用户名，其它名称无效）</font>，将来你的网站访问地址就是<a href="http://test.github.io/">http://test.github.io</a> 了，每一个github账户最多只能创建一个这样可以直接使用域名访问的仓库。<br></li><li>注册的邮箱要验证，仓库的名字必须是：username.github.io,其中username就是你github的用户名，创建完仓库不一定立马成功，有时需要等待一下。<br><br><img src="https://a-maze.oss-cn-shenzhen.aliyuncs.com/myblog/9%40ST4M%24E31H%28FO%7BC8%5D56T%29M.png"><br></li></ul><h2 id="配置SSH-Key"><a href="#配置SSH-Key" class="headerlink" title="配置SSH Key"></a>配置SSH Key<br></h2><ul><li><p>SSH Key 用于本地与GitHub的连接。<br></p></li><li><p>在CMD或者用 git bash here 运行代码：<code>ssh-keygen -t rsa -C &quot;邮件地址&quot;</code>然后连续3次回车，最终会生成一个文件在用户目录下，打开C盘的用户目录，找到.ssh\id_rsa.pub文件，记事本打开并复制里面的内容，打开你的github主页，进入个人设置 -&gt; SSH and GPG keys -&gt; New SSH key：将复制内容粘贴到key里面<font color="blue">(Title 随便填写)</font><br><br><img src="https://a-maze.oss-cn-shenzhen.aliyuncs.com/myblog/K5200A%7E%29VZLUD%5B%5DWM86S%7BMJ.png"><br><img src="https://a-maze.oss-cn-shenzhen.aliyuncs.com/myblog/%5BND%25MRCL3%40P%40_UQQV%29HLG%602.png"><br></p></li><li><p>测试SSH Key是否配置成功<br><br><code>ssh -T git@github.com # 注意邮箱地址不用改</code><br><br>如果提示Are you sure you want to continue connecting (yes/no)?，输入yes，然后会看到：</p><blockquote><p>Hi liuxianan! You’ve successfully authenticated, <br><br>but GitHub does not provide shell access.<br><br>看到这个说明配置成功，然后你还需要配置:<br><code>git config --global user.name &quot;liuxianan&quot;// 你的github用户名，非昵称</code><br><code>git config --global user.email  &quot;xxx@qq.com&quot;// 填写你的github注册邮箱</code></p></blockquote><h2 id="hexo的安装"><a href="#hexo的安装" class="headerlink" title="hexo的安装"></a>hexo的安装<br></h2></li><li><p>安装<br><code>npm install -g hexo</code></p></li><li><p>在需要保存博客的文件夹里git bash here运行下面代码,将hexo的文件保存在里面。会在本地文件夹生成下图的文件。<br><code> hexo init</code><br><img src="https://a-maze.oss-cn-shenzhen.aliyuncs.com/myblog/9M%40VDBEY%251%7DU7JJQSDKR%5D52.png"><br></p></li></ul><h2 id="hexo部署到github上"><a href="#hexo部署到github上" class="headerlink" title="hexo部署到github上"></a>hexo部署到github上<br></h2><ul><li>清除缓存 <font color="blue">（进入本地博客目录）</font><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hello clean</span><br></pre></td></tr></table></figure></li><li>生成静态页面<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>可以简写成：hexo g<br></li><li>将本地静态页面目录部署到云服务器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>可以简写成：hexo g<br></li></ul><h2 id="个人绑定域名"><a href="#个人绑定域名" class="headerlink" title="个人绑定域名"></a>个人绑定域名<br></h2><p><strong>不绑定域名，直接用xxx.github.io访问也是可以的。如果你想更加有个性（装逼），就请看这部分内容，不需要个性的可以直接跳过</strong><br></p><ul><li>注册域名<br>首先你得注册域名。域名注册可以自行百度，本人在阿里云注册的，价格不贵（第一年），不过国内的域名备案很麻烦。<br></li><li>GitHub仓库的设置<br>我们希望在访问这个域名时能自动进入 Github Pages，进而访问我们的博客。所以我们要在万网建立一个CNAME纪录（将域名指向另一个域名）来帮我们做一个域名跳转，其实就是个重定向的过程。由于 Github Pages ，<font color="blue">只允许最多一个域名重定向到自己的地址</font>，所以需要在你的 XXXX.github.io 仓库的设置中添加你刚刚注册的个人域名。看图：<br><img src="https://a-maze.oss-cn-shenzhen.aliyuncs.com/myblog/IAJ8OZ_RIFAW7ODDG0M8%5BV3.png"><br><font color="red">注意：当你在github仓库里保存好了自己的域名，便会在你的仓库里生成一个名字是CNAME的文件，你需要把他下载到本地，将它放在你本地存放博客文件里面的source文件下。</font>（原因是：Hexo 3每次生成静态网页会完全覆盖之前的内容。如果我们直接创建一个新文件CNAME，填好域名，然后部署，会发现在下一次部署后这个文件就消失了，因为 HEXO 并不会自动生成 CNAME 文件，所以在部署时被覆盖删除了。放在source文件夹下它就不会被被删除。当然还有其他方法做到，可以自行百度，但我觉得这是最简单的方法。)<br></li><li>域名解析</li></ul><p>1.添加解析：<br><br>记录类型选择 CNAME<br><br>主机记录填 www<br><br>解析线路选择默认<br><br>记录值填 yourname.github.io<br><br>TTL 值为 10 分钟<br><br>2.再添加一个解析：<br><br>记录类型为 A<br><br>主机记录填 @<br><br>解析线路选择默认<br><br>记录值填你 GitHub 仓库的 ip 地址（在cmd中ping）<br></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;之前的云服务器没了，太贵了续费不起。github搭建hexo博客是不需要花钱的，以免以后忘记这个白嫖的方法&lt;font color=&quot;blue&quot;&gt;（白嫖不爽吗？）&lt;/font&gt;，详细记录下来。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="http://ll-memory.club/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="github" scheme="http://ll-memory.club/tags/github/"/>
+    
+    <category term="hexo" scheme="http://ll-memory.club/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>github 上传本地代码</title>
+    <link href="http://ll-memory.club/2018/09/26/github-%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E4%BB%A3%E7%A0%81/"/>
+    <id>http://ll-memory.club/2018/09/26/github-%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E4%BB%A3%E7%A0%81/</id>
+    <published>2018-09-26T12:33:49.000Z</published>
+    <updated>2021-08-18T12:36:42.764Z</updated>
+    
+    <content type="html"><![CDATA[<p>第一次在上传代码到github上碰到许许多多的问题，所以觉得有必要罗列一下，可能对于以后像我这样的新手上传代码时，能少走弯路</p><a id="more"></a><h3 id="在Github上创建仓库"><a href="#在Github上创建仓库" class="headerlink" title="在Github上创建仓库"></a>在Github上创建仓库</h3><p>在Github主页上创建好，复制下ssh地址</p><h3 id="本地用命令上传"><a href="#本地用命令上传" class="headerlink" title="本地用命令上传"></a>本地用命令上传</h3><blockquote><p>在要上传文件目录下 git bash<br>输入命令创建本地git,生成.git目录</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure><blockquote><p>添加所有文件到本地库</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure><blockquote><p>添加所有文件到本地库</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m &quot;注释语句&quot;</span><br></pre></td></tr></table></figure><blockquote><p>本地库关联远程github上的刚创建的库</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin git@github.com:Hanh94(你的github用户名)&#x2F;AFNTool(你的github上的项目名称).git</span><br></pre></td></tr></table></figure><blockquote><p>拉取github远程服务器的文件</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull origin master</span><br></pre></td></tr></table></figure><blockquote><p>将本地文件上传</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;第一次在上传代码到github上碰到许许多多的问题，所以觉得有必要罗列一下，可能对于以后像我这样的新手上传代码时，能少走弯路&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="http://ll-memory.club/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="-Git -github" scheme="http://ll-memory.club/tags/Git-github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>html 语言基础</title>
+    <link href="http://ll-memory.club/2018/09/26/html-%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/"/>
+    <id>http://ll-memory.club/2018/09/26/html-%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/</id>
+    <published>2018-09-25T18:10:21.000Z</published>
+    <updated>2021-08-18T12:38:41.830Z</updated>
+    
+    <content type="html"><![CDATA[<p>HTML是用来编写网页的一种语言，用它编写的文件简称超文本，或者网页文件。HTML是通过利用各种标签来标识文档的结构以及超链接信息的。</p><a id="more"></a><h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h3><p>标签分单独出现的标签和成对出现的标签两种。大多数标签都是成对出现的，由首标签和尾标签组成。首标签格式：&lt;元素名&gt;，尾标签的格式为&lt;/元素名&gt;<br><font color="red"><br>HTML语法的一般格式如下：</font></p><blockquote><p>&lt;标签名 属性名1=属性值1 属性名2=属性值2 …&gt;标签中的具体内容&lt;/标签名&gt;</p></blockquote><ul><li><p><strong>&lt; html &gt;标签</strong><br>首标签&lt; html&gt;和尾标签&lt; /html&gt;分别位于文档的最前面和最后面，明确地表示文档是以超文本语言（HTML）编写的。</p></li><li><p><strong>&lt; head &gt;标签</strong><br>习惯上我们把HTML文档分为文档头和文档主体两个部分。主体部分就是我们在浏览器用户区看到的内容。&lt; head &gt;标签包裹的就是文档头部分。如&lt; title&gt;标签就是嵌套在&lt; head&gt;标签中的子标签，&lt; title&gt;和&lt; /title&gt;之间的内容将显示在Web浏览器窗口的标题栏中。</p></li><li><p><strong>&lt; body&gt;标签</strong><br>在&lt; body&gt;&lt; /body&gt;之间的内容将显示在浏览器窗口的用户区内。他是HTML文档夫的主体部分。在&lt; body&gt;<br>标签中可以规定整个文档的一些基本属性，如背景颜色，背景图片，字体字号等。</p></li><li><p><strong>&lt; hn&gt;标题标签</strong><br>HTML总共提供6个等级的标题，n越小，字号就越大，&lt; h1&gt;定义最大号标题，&lt; h6&gt;定义最小号标题。</p></li><li><p><strong>&lt; br&gt;换行标签</strong><br>换行符号标签是单个标签，如果想把一个句子后面内容在下一行显示就会用到换行符&lt; br&gt;。</p></li><li><p><strong>&lt; hr&gt;水平线标签</strong><br>用&lt; hr&gt;标签可以在网页上画出一条横跨网页的水平分隔线。</p></li><li><p><strong>&lt; font&gt;字体标签</strong><br>&lt; font&gt;字体标签是HTML里最常用文字格式控制标签，通过改变&lt; font&gt;标签的属性可以改变文字的大小，颜色，字体等。&lt; font&gt;标签的主要属性有：</p></li></ul><blockquote><p><strong>1.size</strong><br>&lt; size&gt;标签的size属性指定文字的大小，它的取值范围为1~7，当它取值为1时文字最小，7最大，默认值是3.</p></blockquote><blockquote><p>2.<strong>color</strong><br>&lt; font&gt;标签的color属性指定文字的颜色，它的取值可以用英文关键字，十六进制颜色代码，rgb函数三种类型。</p></blockquote><blockquote><p>3.<strong>face</strong><br>&lt; font&gt;标签的face属性指定文字的字体。</p></blockquote><ul><li><strong>&lt; p&gt;段落标签</strong><br>&lt; p&gt;标签符用于划分段落，控制文本位置。&lt; p&gt;是成对标签符，用于定义内容从新的一行开始，并与上段之间有一个空行，其align属性定义新开始的一行内容在页面中的对齐位置，属性值可以是left(左对齐)，center(居中对齐)，或者right（右对齐）。</li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;HTML是用来编写网页的一种语言，用它编写的文件简称超文本，或者网页文件。HTML是通过利用各种标签来标识文档的结构以及超链接信息的。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="网页设计" scheme="http://ll-memory.club/categories/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="web design" scheme="http://ll-memory.club/tags/web-design/"/>
+    
+    <category term="HTML" scheme="http://ll-memory.club/tags/HTML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown 语法</title>
+    <link href="http://ll-memory.club/2018/09/25/Markdown-%E8%AF%AD%E6%B3%95/"/>
+    <id>http://ll-memory.club/2018/09/25/Markdown-%E8%AF%AD%E6%B3%95/</id>
+    <published>2018-09-25T12:30:25.000Z</published>
+    <updated>2021-08-18T12:45:34.272Z</updated>
+    
+    <content type="html"><![CDATA[<p>markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p><a id="more"></a><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p>一个#是一级标题，二个#是二级标题，以此类推。支持六级标题。<br><font color="red">标准语法一般在#后跟个空格再写文字</font></p><pre><code># 这是一级标题# 这是二级标题# 这是三级标题# 这是四级标题# 这是五级标题# 这是六级标题</code></pre><h3 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h3><ul><li>加粗<br>要加粗的文字左右分别用两个*号包起来</li><li>斜体<br>要倾斜的文字左右分别用一个*号包起来</li><li>斜体加粗<br>要倾斜和加粗的文字左右分别用三个*号包起来</li><li>删除线<br>要加删除线的文字左右分别用两个~~号包起来</li><li>效果如下：<blockquote><p><strong>这是加粗的文字</strong><br><em>这是倾斜的文字</em><br><strong><em>这是倾斜加粗的文字</em></strong><br><del>这是加删除线的文字</del></p></blockquote></li><li>字体的颜色和字号<br>和html 的语法一样用<font>标签包裹。例如微软雅黑，红色，10号字体代码如下：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;font face&#x3D;&quot;微软雅黑&quot; color&#x3D;&quot;red&quot; size&#x3D;&quot;10&quot;&gt;字体，颜色，字号&lt;&#x2F;font&gt;</span><br></pre></td></tr></table></figure><h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3></li><li>在引用的文字前加&gt;即可。引用也可以嵌套，如加两个&gt;&gt;三个&gt;&gt;&gt;<br>n个…<br>貌似可以一直加下去，但没神马卵用</li><li>效果如下<blockquote><p>这是引用的内容</p><blockquote><p>这是引用的内容</p><blockquote><p>这是引用的内容</p><blockquote><p>这是引用的内容<br>…</p></blockquote></blockquote></blockquote></blockquote><h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3></li><li>三个或者三个以上的 - 或者 * 都可以</li><li>效果如下</li></ul><hr><hr><h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><blockquote><p>！[图片alt] (图片地址 “图片title”)<br> 图片alt就是显示在图片下面的文字，相当于对图片内容的解释。<br> 图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加</p></blockquote><h3 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h3><ul><li>超链接的语法和图片插入的语法类似<blockquote><p>[超链接名] (超链接地址 “超链接title”)<br>title可加可不加</p></blockquote></li><li>示例<br><a href="http://www.baidu.com/">百度</a><h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3></li><li>单行代码：代码之间分别用一个反引号(`)包起来</li><li>代码块：代码之间分别用三个反引包起来，且两边的反引号单独占一行</li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="http://ll-memory.club/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Markdown" scheme="http://ll-memory.club/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用云服务器搭架hexo个人博客</title>
+    <link href="http://ll-memory.club/2018/09/24/%E7%94%A8%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E6%9E%B6hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://ll-memory.club/2018/09/24/%E7%94%A8%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E6%9E%B6hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2018-09-24T10:01:12.000Z</published>
+    <updated>2021-08-18T12:31:26.787Z</updated>
+    
+    <content type="html"><![CDATA[<p>在阿里云上有一个学生服务器，一直想自己写一个个人网站，但工作量实在太大，索性还是搬运一下现成的东西。非常喜欢Hexo搭建的个人博客，偏爱Next主题。所以就开始了用云服务器搭架Hexo个人博客。</p><a id="more"></a><h3 id="本地配置"><a href="#本地配置" class="headerlink" title="本地配置"></a>本地配置</h3><p>1.安装Git，Node.js和Npm。<br>2.测试node和npm是否安装成功。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure><ul><li>本地初始化博客站点搭建。（例如~/Desktop/myblog，在该文件夹中git bash后输入下面命令将所有文件置于该文件夹下）<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure></li><li>本地hexo的配置（进入~/Desktop/myblog目录，修改Hexo博客站点配置文件-config.yml）<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">......</span><br><span class="line">deploy:</span><br><span class="line">type: git</span><br><span class="line">repo: root@120.79.128.36:&#x2F;usr&#x2F;local&#x2F;blogRepo&#x2F;hexo.git</span><br><span class="line">&lt;font color&#x3D;&quot;red&quot;&gt;&#x2F;&#x2F;服务器用户名@域名或IP：&#x2F;服务器Git仓库&lt;&#x2F;font&gt;</span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure><h3 id="服务器的配置"><a href="#服务器的配置" class="headerlink" title="服务器的配置"></a>服务器的配置</h3></li></ul><p>1.Nginx的配置</p><ul><li>安装Nginx<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">yum -y update</span><br><span class="line">yum install -y git nginx</span><br></pre></td></tr></table></figure></li><li>nginx的配置（创建文件目录，用于博客站点文件存放）<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd &#x2F;usr&#x2F;local</span><br><span class="line">mkdir hexo</span><br><span class="line">chmod 775 -R &#x2F;usr&#x2F;local&#x2F;hexo&#x2F;</span><br></pre></td></tr></table></figure></li><li>添加index.html,用于检测配置Nginx是否成功。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim &#x2F;usr&#x2F;local&#x2F;hexo&#x2F;index.html</span><br></pre></td></tr></table></figure></li><li>添加以下代码并保存</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line"> &lt;head&gt;</span><br><span class="line">  &lt;title&gt;&lt;&#x2F;title&gt;</span><br><span class="line">  &lt;meta charset&#x3D;&quot;UTF-8&quot;&gt;</span><br><span class="line"> &lt;&#x2F;head&gt;</span><br><span class="line"> &lt;body&gt;</span><br><span class="line">  &lt;p&gt;Nginx running&lt;&#x2F;p&gt;</span><br><span class="line"> &lt;&#x2F;body&gt;</span><br><span class="line">&lt;&#x2F;html&gt;</span><br></pre></td></tr></table></figure><ul><li>配置Nginx服务器<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim &#x2F;etc&#x2F;nginx&#x2F;nginx.conf</span><br></pre></td></tr></table></figure></li><li>修改server_name和root;<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">      listen       80 default_server;</span><br><span class="line">      listen       [::]:80 default_server;</span><br><span class="line">      server_name  www.xxx.com; # 填写个人域名</span><br><span class="line">      root         &#x2F;usr&#x2F;local&#x2F;hexo&#x2F;;</span><br><span class="line">&#125;</span><br><span class="line">......</span><br></pre></td></tr></table></figure></li><li>启动Nginx服务<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service nginx start</span><br></pre></td></tr></table></figure></li><li>启动浏览器输入云服务器的个人域名或IP，查看是否呈index.html的内容</li></ul><p>2.Git的配置</p><ul><li>Git的安装<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install git</span><br></pre></td></tr></table></figure></li><li>创建文件目录，用于私人Git仓库的搭建，并更改目录读写权限<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd &#x2F;usr&#x2F;local&#x2F;</span><br><span class="line">mkdir blogRepo</span><br><span class="line">chmod 775 -R &#x2F;usr&#x2F;local&#x2F;blogRepo&#x2F;</span><br></pre></td></tr></table></figure></li><li>Git初始化裸库<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd blogRepo&#x2F;</span><br><span class="line">git init --bare hexo.git</span><br></pre></td></tr></table></figure></li><li>创建Git钩子（hook）<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim &#x2F;usr&#x2F;local&#x2F;blogRepo&#x2F;hexo.git&#x2F;hooks&#x2F;post-receive</span><br></pre></td></tr></table></figure></li><li>输入以下信息，用于指定Git的源代码和Git配置文件</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#!&#x2F;bin&#x2F;bash</span><br><span class="line">git --work-tree&#x3D;&#x2F;usr&#x2F;local&#x2F;hexo --git-dir&#x3D;&#x2F;usr&#x2F;local&#x2F;blogRepo&#x2F;hexo.git checkout -f</span><br></pre></td></tr></table></figure><ul><li>保存并退出后，给该文件添加可执行权限<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod +x &#x2F;usr&#x2F;local&#x2F;blogRepo&#x2F;hexo.git&#x2F;hooks&#x2F;post-receive</span><br></pre></td></tr></table></figure></li></ul><h3 id="Hexo部署到服务器"><a href="#Hexo部署到服务器" class="headerlink" title="Hexo部署到服务器"></a>Hexo部署到服务器</h3><ul><li><p>清除缓存（进入~/Desktop/myblog目录）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure></li><li><p>生成静态页面</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure><blockquote><p>可以简写成：hexo g</p></blockquote></li><li><p>将本地静态页面目录部署到云服务器</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure><blockquote><p>可以简写成：hexo d</p></blockquote></li><li><p>如果出现错误ERROR Deployer not found: git，执行：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -save hexo-deployer-git</span><br></pre></td></tr></table></figure></li><li><p>启动本地服务器，预览网页</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure><blockquote><p>可简写成hexo s</p></blockquote></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;在阿里云上有一个学生服务器，一直想自己写一个个人网站，但工作量实在太大，索性还是搬运一下现成的东西。非常喜欢Hexo搭建的个人博客，偏爱Next主题。所以就开始了用云服务器搭架Hexo个人博客。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="http://ll-memory.club/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="hexo" scheme="http://ll-memory.club/tags/hexo/"/>
+    
+    <category term="Git" scheme="http://ll-memory.club/tags/Git/"/>
+    
+    <category term="Nginx" scheme="http://ll-memory.club/tags/Nginx/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>龙族</title>
+    <link href="http://ll-memory.club/2018/09/24/%E9%BE%99%E6%97%8F/"/>
+    <id>http://ll-memory.club/2018/09/24/%E9%BE%99%E6%97%8F/</id>
+    <published>2018-09-23T23:16:22.000Z</published>
+    <updated>2021-08-18T09:30:47.350Z</updated>
+    
+    <content type="html"><![CDATA[<p>没什么对错，其实他无论做什么都不会讨这家人的喜欢，就像对一个女孩，因为她不爱你，所以你做什么都是错的。 因为不爱，所以都错。 江南 《龙族》</p><a id="more"></a><p><img src="http://a-maze.oss-cn-shenzhen.aliyuncs.com/18-9-27/8970388.jpg"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;没什么对错，其实他无论做什么都不会讨这家人的喜欢，就像对一个女孩，因为她不爱你，所以你做什么都是错的。 因为不爱，所以都错。 江南 《龙族》&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="生活" scheme="http://ll-memory.club/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
   </entry>
