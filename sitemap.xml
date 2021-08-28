@@ -172,6 +172,20 @@
   </url>
   
   <url>
+    <loc>http://linbolg.cn/tags/LLSGDSB/</loc>
+    <lastmod>2021-08-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://linbolg.cn/tags/fansha/</loc>
+    <lastmod>2021-08-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://linbolg.cn/tags/github/</loc>
     <lastmod>2021-08-28</lastmod>
     <changefreq>daily</changefreq>
@@ -194,20 +208,6 @@
   
   <url>
     <loc>http://linbolg.cn/tags/Nginx/</loc>
-    <lastmod>2021-08-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://linbolg.cn/tags/LLSGDSB/</loc>
-    <lastmod>2021-08-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://linbolg.cn/tags/fansha/</loc>
     <lastmod>2021-08-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
